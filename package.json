@@ -1,0 +1,60 @@
+{
+  "name": "@legion/dialpad-sdk",
+  "version": "0.1.0",
+  "description": "Modern TypeScript SDK for Dialpad API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint 'src/**/*.{js,ts}'",
+    "lint:fix": "eslint 'src/**/*.{js,ts}' --fix",
+    "format": "prettier --write 'src/**/*.{js,ts}'",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "dialpad",
+    "api",
+    "sdk",
+    "typescript",
+    "voip",
+    "telephony"
+  ],
+  "author": "Legion",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legion/dialpad-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/legion/dialpad-sdk/issues"
+  },
+  "homepage": "https://github.com/legion/dialpad-sdk#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.2.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
