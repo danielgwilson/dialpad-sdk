@@ -2,15 +2,15 @@
 
 ## The Story
 
-Picture this: You're a developer, trying to integrate with Dialpad's API. You check their docs, hoping to find a nice, modern TypeScript SDK. But alas! All you find is a Python SDK that looks like it was written during the Obama administration.
+State of the world: be you, a dev trying to integrate Dialpad's API. You check their docs, hoping to find a nice, modern TypeScript SDK. But alas! All you find is a Python SDK that looks like it was written during the Obama administration.
 
 ## Enter This Project
 
-Since Dialpad was too busy building AI features nobody asked for (just kidding, we love you Dialpad! 😘), we decided to take matters into our own hands and build the TypeScript SDK they never got around to making.
+Since Dialpad was too busy building AI features nobody asked for (just kidding, love you Dialpad please don't ban me 😘), we decided to take matters into our own hands and build the TypeScript SDK they never got around to making.
 
 ### Features That Dialpad Should Have Given Us Years Ago
 
-- 🎯 **Full TypeScript Support**: Because we live in 2024, not 2015
+- 🎯 **Full TypeScript Support**: Because we live in 2025, not 2015
 - 🧪 **Modern Testing**: With Vitest, because life's too short for Jest
 - 📚 **Actually Good Documentation**: With examples that don't make you want to cry
 - 🔒 **Type Safety**: Because `any` is not a personality trait
@@ -25,7 +25,7 @@ Since Dialpad was too busy building AI features nobody asked for (just kidding, 
 
 ## The Real MVP
 
-Shoutout to Dialpad's API documentation team - you're the real MVPs. We couldn't have built this without your docs. Now if we could just convince your engineering team to maintain an official TypeScript SDK... 😉
+Shoutout to Dialpad's API documentation team—you're the real MVPs. We couldn't have built this without your docs. Now if we could just convince your engineering team to maintain an official TypeScript SDK... 😉
 
 ## Installation
 
